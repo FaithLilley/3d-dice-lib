@@ -1,4 +1,12 @@
-Major's 3D Dice
+# Faith's fork & testbed of Major's 3D Dice
+
+Original code from [MajorVictory Dice Roller](https://github.com/MajorVictory/3DDiceRoller)
+
+## Test Pages
+
+https://github.com/FaithLilley/3d-dice-lib/raw/master/index.html
+
+## MajorVictory's Original Notes
 
 Uses three.js and cannon.js to simulate actual dice and read their results.
 http://threejs.org
