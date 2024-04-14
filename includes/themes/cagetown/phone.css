@@ -3,18 +3,3 @@ body {
     background-size: contain;
 	background-image: url('bg-landscape.png');
 }
-
-/* -- This stuff changes things up when this style is selected -- */
-
-#bottom-panel {
-    display: none !important;
-}
-#selector_div {
-    border: none;
-    background-color: transparent;
-}
-*{ scrollbar-width: none }
-#canvas {
-    height: 2160px !important;
-    border: none;
-}
