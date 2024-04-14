@@ -454,6 +454,7 @@ body .ui-tooltip {
 
 #canvas {
     border: none;
+    height: 100vh !important;
 }
 
 #control_panel_buttons {
