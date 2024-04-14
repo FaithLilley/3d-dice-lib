@@ -441,6 +441,7 @@ body .ui-tooltip {
 
 #desk {
     position: relative;
+    height: 100vh !important;
 }
 
 #info_div {
