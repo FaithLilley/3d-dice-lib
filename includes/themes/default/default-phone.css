@@ -454,13 +454,13 @@ body .ui-tooltip {
 
 #control_panel_buttons {
     position: absolute;
-    top: 2em;
-    left: 2em;
+    top: 0em;
+    left: 0em;
     padding: 10px;
-    visibility: hidden;
+    visibility: hidden !important;
 }
 #control_panel_buttons:hover {
-    visibility: visible;
+    visibility: visible !important;
 }
 
 #control_panel_buttons button {
