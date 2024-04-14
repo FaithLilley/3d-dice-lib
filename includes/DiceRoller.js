@@ -117,12 +117,12 @@ export class DiceRoller {
 
 		if (this.params.colorset || this.params.texture || this.params.material) {
 			this.DiceColors.applyColorSet(
-				(this.params.colorset || 'black'),
+				(this.params.colorset || 'random'),
 				(this.params.texture || ''),
 				(this.params.material || '')
 			);
 		} else {
-			this.DiceColors.applyColorSet('black');
+			this.DiceColors.applyColorSet('random');
 		}
 
 		if (this.params.server) {

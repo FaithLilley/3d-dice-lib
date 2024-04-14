@@ -30,7 +30,6 @@
 
 */
 
-*{ scrollbar-width: none }
 
 body {
     background-color: #0b1a3e;
@@ -282,8 +281,8 @@ body .ui-tooltip {
 #selector_div {
     position: absolute;
     width: 100%;
-    border: none;
-    background-color: transparent;
+    background-color: rgba(0,0,0,0.25);
+    border-bottom: 2px dashed white;
 }
 
 #selector_div select {
@@ -343,7 +342,6 @@ body .ui-tooltip {
     top: -0.25em;
     right: 0.5em;
     text-align: right;
-    display: none;
 }
 
 #desk > div.connection_message {
@@ -451,14 +449,13 @@ body .ui-tooltip {
 }
 
 #canvas {
-    height: 100% !important;
-    border: none;
+    border-bottom: 2px dashed white;
 }
 
 #control_panel_buttons {
     position: absolute;
-    top: 0em;
-    left: 0em;
+    top: 2em;
+    left: 2em;
     padding: 10px;
 }
 
