@@ -241,6 +241,15 @@ export const THEMES = {
 		colors: {fg: '#9794ff', bg: '#0b1a3e'},
 		cubeMap: ['envmap.jpg','envmap.jpg','envmap.jpg','envmap.jpg','envmap.jpg','envmap.jpg']
 	},
+	'worldtree': {
+		name: 'World Tree',
+		author: 'Faith',
+		showColorPicker: true,
+		surface: 'wood_table',
+		colors: {fg: '#ffffff', bg: '#121212'},
+		cubeMap: ['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png']
+	}
+/*
 	'blue-felt': {
 		name: 'Blue Felt',
 		author: 'MajorVictory',
@@ -307,6 +316,7 @@ export const THEMES = {
 		colors: {fg: '#D7A866', bg: '#282811'},
 		cubeMap: ['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png']
 	}
+*/
 };
 
 export const COLORSETS = {
