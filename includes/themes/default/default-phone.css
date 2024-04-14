@@ -30,6 +30,7 @@
 
 */
 
+*{ scrollbar-width: none }
 
 body {
     background-color: #0b1a3e;
@@ -281,8 +282,8 @@ body .ui-tooltip {
 #selector_div {
     position: absolute;
     width: 100%;
-    background-color: rgba(0,0,0,0.25);
-    border-bottom: 2px dashed white;
+    background-color: transparent;
+    border: none;
 }
 
 #selector_div select {
@@ -342,6 +343,7 @@ body .ui-tooltip {
     top: -0.25em;
     right: 0.5em;
     text-align: right;
+    display: none;
 }
 
 #desk > div.connection_message {
@@ -362,6 +364,7 @@ body .ui-tooltip {
     display: grid;
     grid-template-columns: auto 20%;
     background-color: rgba(0,0,0,0.25);
+    display: none !important;
 }
 
 #teal-userlist {
@@ -449,7 +452,7 @@ body .ui-tooltip {
 }
 
 #canvas {
-    border-bottom: 2px dashed white;
+    border: none;
 }
 
 #control_panel_buttons {
@@ -457,7 +460,7 @@ body .ui-tooltip {
     top: 0em;
     left: 0em;
     padding: 10px;
-    opacity: 0.1;
+    opacity: 0;
 }
 #control_panel_buttons:hover {
     opacity: 1.0;
