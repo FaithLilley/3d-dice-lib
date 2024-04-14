@@ -246,7 +246,7 @@ export const THEMES = {
 		author: 'Faith',
 		showColorPicker: true,
 		surface: 'wood_table',
-		colors: {fg: '#ffffff', bg: '#282811'},
+		colors: {fg: '#ffffff', bg: '#032834'},
 		cubeMap: ['px.png', 'nx.png', 'py.png', 'ny.png', 'pz.png', 'nz.png']
 	}
 /*

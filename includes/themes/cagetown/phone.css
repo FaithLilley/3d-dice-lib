@@ -14,3 +14,20 @@ body {
 	}
 }
 
+/* -- This stuff changes things up when this style is selected -- */
+
+*{ scrollbar-width: none }
+#selector_div {
+    border: none;
+    background-color: transparent;
+}
+#canvas {
+    background-image: url(https://i.imgur.com/RHaDEQu.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2160px !important;
+    border: none;
+}
+#control_panel_buttons, .center_field, .connection_message {
+    display: none;
+}
