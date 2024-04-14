@@ -34,6 +34,7 @@
 
 body {
     background-color: #0b1a3e;
+	background-size: contain;
     color: #9794ff;
     font-family: Georgia;
     margin: 0px;
