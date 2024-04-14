@@ -457,6 +457,10 @@ body .ui-tooltip {
     top: 2em;
     left: 2em;
     padding: 10px;
+    visibility: hidden;
+}
+#control_panel_buttons:hover {
+    visibility: visible;
 }
 
 #control_panel_buttons button {
